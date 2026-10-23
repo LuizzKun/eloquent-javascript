@@ -1,19 +1,8 @@
-let array = [1,2,3,4]
-
-let [one, two, three, four] = array;
-
-
-console.log(one);
-
-
-const object1 = {
+let object1 = {
   name: "luis",
-  age: 22,
-  hobby:"trading"
+  age: 22
 }
 
-let {name, age, hobby} = object1
 
 
-console.log(name);
-
+console.log(Object.keys(object1));
