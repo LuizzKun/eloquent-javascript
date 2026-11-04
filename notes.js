@@ -1,7 +1,6 @@
-let array = []  
+let animalCount = /\d+ (pig|cow|chicken)s?/
 
-function firstElement(array){
-  return array[0]
-}
 
-console.log(firstElement(array));
+console.log(animalCount.test("15 pigs"));
+
+console.log(("15 pigs").match(animalCount));
